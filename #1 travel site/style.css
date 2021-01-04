@@ -1,0 +1,25 @@
+.menu{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.menu a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo{
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    height: 58px;
+}
+#home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 80px;
+}
