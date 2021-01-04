@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+input{
+    border: none;
+    width: 260px;
+    padding: 10px;
+    border-radius: 5px;
+}
+body{
+    background-color: #1BBC9B;
+}
+.login-form{
+    width: 300px;
+    background-color: #EEEFF1;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.submit-btn{
+    background-color: #1BBC9B;
+    color: white;
+    margin-bottom: 30px;
+}
+.links{
+    text-align: center;
+}
+.links a{
+    color: #9B9B9B;
+    font-size: 12px;
+}
+.text-field{
+    margin-bottom: 10px;
+}
