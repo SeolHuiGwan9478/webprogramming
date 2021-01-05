@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+#navbar{
+    padding: 10px 20px;
+
+}
+#logo{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+.hero-header{
+    background-image: url(../images/hero_image.jpg);
+    background-position: center center;
+    height: 684px;
+    background-size: cover;
+}
+.learn-more{
+    font-size: 18px;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 8px 40px;
+}
+.info{
+    text-align: center;
+}
+.info h1{
+    margin-bottom: 10px;
+}
+.info h2{
+    margin-bottom: 50px
+}
+.helper{
+    height: 200px;
+}
