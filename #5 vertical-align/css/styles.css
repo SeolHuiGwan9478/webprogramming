@@ -1,0 +1,49 @@
+.info h1, .info h2{
+    color:white
+}
+body{
+    margin: 0;
+}
+img{
+    padding-top: 20px;
+}
+.hero-header{
+    background-image: url(../images/hero_image.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 670px;
+    text-align: center;
+}
+#navbar{
+    height: 50px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.info a{
+    color: gray;
+    background-color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.hero-header .info{
+    display: inline-block;
+    vertical-align: middle;
+}
+.hero-header .info h1{
+    margin: 0;
+    margin-bottom: 13px ;
+}
+.hero-header .info h2{
+    margin: 0;
+    margin-bottom: 60px;
+}
+.helper{
+    display: inline-block;
+    height: 100%;
+
+}
