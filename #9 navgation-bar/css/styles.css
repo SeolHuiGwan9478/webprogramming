@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+  }
+  
+  #navbar {
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    height: 60px;
+    
+  }
+  
+  #logo {
+    float: left;
+    line-height: 60px;
+  }
+  
+  #logo img{
+    vertical-align: middle;
+  }
+  
+  #menu{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li{
+    float: left;
+  }
+  
+  #menu li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    line-height: 60px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  #menu li a:hover{
+    background-color: #eeeeee;
+  }
+  
+  .hero-header {
+    background-image: url("../images/hero_image.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 670px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 670px;
+  }
+  
+  .hero-header .info {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  
+  .hero-header .info h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 13px;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .hero-header .info h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 60px;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .hero-header .info a {
+    font-size: 14px;
+    background-color: white;
+    color: #464273;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  
+  
