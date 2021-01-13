@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.col {
+  float: left;
+  width: 100%;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #353535;
+  padding-left: 30px;
+  line-height: 60px;
+}
+.navbar .logo{
+  font-size: 20px;
+  color: white;
+}
+.banner {
+  height: 350px;
+  background-image: url(../images/main_img.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.info {
+  height: 320px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.info .label{
+  font-size: 16px;
+  color: #4A4A4A;
+}
+.info h2{
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.info p{
+  font-size: 16px;
+  color: #7a7a7a;
+  margin: 0;
+}
+.img-div1 {
+  height: 385px;
+  background-image: url(../images/img1.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.img-div2 {
+  height: 200px;
+  background-image: url(../images/img2.jpg);
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+.img-div2 a{
+  padding: 9px 40px;
+  border: 4px solid white;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.img-div2 .helper{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.img-div3 {
+  height: 200px;
+  background-image: url(../images/img3.jpg);
+  background-size: cover;
+  background-position: center top;
+} 
+.info .info-container{
+  display: inline-block;
+  vertical-align: middle;
+}
+.info .helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+@media (min-width: 768px) {
+  .banner {
+    height: 562px;
+  }
+  .info {
+    height: 282px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .img-div1 {
+    height: 360px;
+    width: 50%;
+  }
+  .img-div2 {
+    height: 180px;
+    width: 50%;
+  }
+  .img-div3 {
+    height: 180px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 700px;
+    width: 50%;
+  }
+  .info {
+    height: 350px;
+    width: 50%;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .img-div1 {
+    height: 350px;
+    width: 25%;
+  }
+  .img-div2 {
+    height: 175px;
+    width: 25%;
+  }
+  .img-div3 {
+    height: 175px;
+    width: 25%;
+  }
+}
